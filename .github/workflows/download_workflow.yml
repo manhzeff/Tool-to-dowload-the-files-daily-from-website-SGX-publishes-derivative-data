@@ -22,4 +22,4 @@ jobs:
         pip install requests
         
     - name: Run download script
-      run: python download_files.py
+      run: python main.py
