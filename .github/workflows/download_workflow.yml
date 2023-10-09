@@ -1,6 +1,8 @@
 name: Daily Download Workflow
-
-on:
+on: 
+  push:
+    branches:
+      - dev-manh
   schedule:
     - cron: '50 * * * *' 
 
